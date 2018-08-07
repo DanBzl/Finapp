@@ -1,0 +1,17 @@
+{
+  "name": "finapp",
+  "version": "1.0.0",
+  "description": "Nodejs Backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "console.log('Hello Backend Workd')"
+  },
+  "author": "Dan Mpindi Bazola",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.7",
+    "typescript": "^3.0.1"
+  }
+}

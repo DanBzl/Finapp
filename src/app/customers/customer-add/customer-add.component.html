@@ -1,0 +1,19 @@
+<div class="addBox">
+  <div class="itemBox">    
+    <h1>Add a Customer</h1>
+    <mat-form-field class="full-width">
+      <input [(ngModel)]="name" matInput placeholder="Customers name...">
+    </mat-form-field>
+    <br>
+    <mat-form-field>
+        <mat-select  [(ngModel)]="type" placeholder="Customers type...">
+          <mat-option *ngFor="let t of types" [value]="t.value">
+            {{t.viewValue}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+    <br>
+    <button (click)="add()" mat-flat-button>Add</button>
+  </div>
+
+</div>
