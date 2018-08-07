@@ -32,7 +32,7 @@ Run `ng build --prod --build-optimizer` to build the project. The build artifact
 
 ## Important: After built
 
-Do not forget to change the `<base href="/"> to <base href="./">` in the built directory before the release of the app
+Do not forget to change the index.html file:  `<base href="/">` to  `<base href="./">` 
 
 ## Running unit tests
 
