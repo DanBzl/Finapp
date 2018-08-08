@@ -6,7 +6,7 @@
     </mat-form-field>
   </div>
 
-  <mat-table class="mytable" #table [dataSource]="dataSource" matSort>
+  <mat-table class="mytable" matSortActive="timestamp" #table [dataSource]="dataSource" matSortDirection="desc" matSort>
     <ng-container matColumnDef="{{column.id}}" *ngFor="let column of columnNames">
       <mat-header-cell *matHeaderCellDef mat-sort-header> {{column.value}} </mat-header-cell>
       <mat-cell *matCellDef="let element"> {{element[column.id]}} </mat-cell>
@@ -15,4 +15,24 @@
     <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
     <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
   </mat-table>
+
+  <div class="chart" id="chart">
+    <h1>Customer classification</h1>
+    <div class="circles">
+        Customer types:
+        &nbsp;&nbsp;&nbsp;
+      <div > A 
+        <div class="circleA">&nbsp;</div>
+      </div>
+      &nbsp;&nbsp;&nbsp;
+      <div > B 
+        <div class="circleB">&nbsp;</div>
+      </div>
+      &nbsp;&nbsp;&nbsp;
+      <div > C 
+        <div class="circleC">&nbsp;</div>
+      </div>
+    </div>
+  </div>
+
 </div>

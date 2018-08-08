@@ -6,3 +6,54 @@
 table {
   width: 100%;
 }
+
+.chart{
+  width: 500px;
+  height: 100%;
+  max-height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgb(247, 237, 237);
+  border-radius: 15px;
+  text-align: center;
+}
+
+.links line {
+  stroke: #999;
+  stroke-opacity: 0.6;
+}
+
+.nodes circle {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+.circles{
+  text-align: center;
+  display: flex;
+  width: 100%;  
+  justify-content: center;
+}
+.circleA{
+  height: 10px;
+  width: 10px;
+  background-color: rgb(5, 158, 18);
+  border-radius: 50%;
+}
+.circleB{
+  height: 10px;
+  width: 10px;
+  background-color: rgb(12, 166, 226);
+  border-radius: 50%;
+}
+.circleC{
+  height: 10px;
+  width: 10px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+svg{
+  width: 500px;
+  height: 300px;
+}

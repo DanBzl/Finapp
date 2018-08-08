@@ -5,6 +5,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CustomersRoutingModule } from './customers-routing.module';
 import { CustomerListComponent } from './customer-list/customer-list.component';
 import { CustomerAddComponent } from './customer-add/customer-add.component';
+import {ChatComponent} from './chat/chat.component';
 
 import { LayoutModule } from '@angular/cdk/layout';
 
@@ -51,6 +52,6 @@ import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, Mat
     MatSnackBarModule,
     
   ],
-  declarations: [CustomerListComponent, CustomerAddComponent]
+  declarations: [CustomerListComponent, CustomerAddComponent, ChatComponent]
 })
 export class CustomersModule { }
