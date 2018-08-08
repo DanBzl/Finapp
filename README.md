@@ -2,8 +2,10 @@
 
 Finapp is a demo app for the company "Finlex GmbH"
 
+GIF image
 ![Gif image](https://github.com/DanBzl/finapp/blob/master/src/assets/GIF.gif)
 
+JPG image
 ![Jpg image](https://github.com/DanBzl/finapp/blob/master/src/assets/finapp.jpg)
 
 
