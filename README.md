@@ -10,7 +10,7 @@ Finapp is a demo app for the company "Finlex GmbH"
 
 You can add a customer<br>
 You can see the customer list<br>
-The customers are grouped (Classification) based on their types. <br>
+The customers are grouped based on their types. (Classification)<br>
 You can search a customer
 
 ## Nodejs (v8.11.2) server
