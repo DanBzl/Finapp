@@ -6,7 +6,7 @@ Finapp is a demo app for the company "Finlex GmbH"
 ![Finapp gif](https://github.com/DanBzl/finapp/blob/master/src/assets/GIF.gif)
 
 
-##What you can do with Finapp
+## What you can do with Finapp
 
 You can add a customer<br>
 You can see the customer list<br>
@@ -31,7 +31,7 @@ Do not forget to change the index.html file:  `<base href="/">` to  `<base href=
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-#Used Technologies
+# Used Technologies
 
 ## D3js 
 
@@ -41,15 +41,15 @@ Version: v5.5
 
 Version: v5.2.6
 
-##MongoDB
+## MongoDB
 
 Version: 4.0.0
 
-##Socket.io-client
+## Socket.io-client
 
 Version: 2.1.1
 
-##Socket.io-server
+## Socket.io-server
 
 Version: 2.0
 
